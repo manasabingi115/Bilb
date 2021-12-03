@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+#circle {
+  height: 300px;
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 2;
+}
+#square {
+  height: 150px;
+  width: 200px;
+  border: 5px solid black;
+  margin-top: -40px;
+  background-color: white;
+}
+#line {
+  width: 0px;
+  height: 200px;
+  border: 5px solid black;
+}
+#last-square {
+  height: 150px;
+  width: 200px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#onoff {
+  max-width: 200px;
+}
+.bulb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-class {
+  background-color: red !important;
+  box-shadow: 50px 50px 500px red;
+}
